@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 style="text-align: center;">code</h2>
+</body>
+<script>
+// vowels and consonants
+//let char=prompt("enter the number:");
+//let vowels = ['a','e','i','o','u','A','E','I','O','U'];
+//if (char=='a'||char=='e'||char=='i'||char=='o'||char=='u'||char=='A'||char=='E'||char=='I'||char=='O'||char=='U'){
+//   console.log("vowels");
+//}
+//else if((char>='a'||char<='z')||(char>='A'||char<='Z')){
+//   console.log("consonants");
+//}
+//else{
+//    console.log("not an alphabet");
+//}
+
+
+//leap year
+//let year= prompt("enter the year:");
+//if((year%4==0 && year%100!=0) || (year%400==0)){
+//    console.log("leap year");
+//}
+//else{
+//    console.log("not a leap year");
+//}
+
+//prime number
+let n= parseInt(prompt("enter the number:"));
+let count=0;
+for(let i=1;i<=n;i++){
+    if(n%i==0){
+        count++;
+    }
+    if(count==2){
+        console.log(count++,"prime number");
+    }
+    else{
+        console.log(count++,"not a prime number");
+    }
+}
+</script>
+</html>
